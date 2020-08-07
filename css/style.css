@@ -104,6 +104,7 @@ header {
 #social {
 	float: left;
 	width: 25%;
+	
 }
 #social i {
 	/* background-color: #2c3e50; */
@@ -112,6 +113,7 @@ header {
 	text-align: right;
 	width: 190px;
 	padding: 15px 10px 0 0;
+	
 }
 
  /* ici les styles des réseau sociaux  */
@@ -122,9 +124,15 @@ header {
 	font-size: 25px;
 }
 
+.suivezmoi {
+	border: 6px solid goldenrod;
+}
+
+
  .instagram {
 	width: 35px;
 	margin-top: 20px;
+	
 }
 
 .facebook {
@@ -184,8 +192,8 @@ nav a:hover {
 }
 
 .active {
-	color: goldenrod;
-	background: gold;
+	color: black;
+	background: goldenrod;
 }
 
 /* les zone principales de la page et du site  */
@@ -400,4 +408,48 @@ aside#droite{
 }
 .aside #droite {
 	line-height: 1.5em;
+}
+
+/* Zoning 2  */
+
+/* a terminer  */
+
+
+				/* Page Position  */
+
+.centre {
+	height: 200px;
+	width: 200px;
+	background-color: gold;
+	margin: 0 auto;
+}
+
+.absolute {
+	height: 100px;
+	width: 100px;
+	background-color: gold;
+	position: absolute;
+	top: 24%;
+	left: 10%;
+}
+
+/* Quand c'est relatif c'est par rapport au parent, quand c'est absolute c'est par rapport au docuemnt SAUF si l'élément est dans un parent relatif.  */
+.relative {
+	background-color: goldenrod;
+	width: 400px;
+	height: 400px;
+	/* Position relative  a la section dans laquelle se trouve cette div, relative par rapport a son parent  */
+	position: relative;
+	left: 100px;
+	bottom: 10px;
+}
+
+.relative div {
+	/* Contrairement à la div.absolute plus haut, cette élément à la position absolute étant placé dans une div à position relative, elle est absolute par rapport à son parent et non par rapport au document.*/
+	background: gold;
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	right: 0;
+	top: 0;
 }
