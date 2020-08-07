@@ -1,0 +1,86 @@
+body {
+    background-color: pink;
+}
+
+#zoning2 {
+    width: 1200px;
+    margin: auto;
+}
+
+#zoning2header {
+    background: hotpink;
+    height: 200px;
+}
+
+#zoning2 aside {
+    background: olive;
+    width: 200px;
+    float: left;
+    height: 400px;
+}
+
+#zoning2 .milieu {
+    width: 800px;
+    background: orange;
+    float: left;
+    height: 400px;
+}
+
+footer {
+    background: grey;
+    color: white;
+}
+
+
+/* header#zoning2header{
+    float: left;
+    width: 1200px;
+    background: gold;
+    height: 150px;
+    text-align: center;
+    font: 25px helvetica;
+}
+
+h1 {
+    line-height: 0.5em;
+}
+
+aside#gauche {
+    float: left;
+    width: 200px;
+    min-height: 400px;
+    background-color: greenyellow;
+    text-align: center;
+    font: 25px helvetica;
+}
+.aside #gauche {
+    line-height: 1.5em;
+}
+
+section#zoning2section {
+    float:left;
+    width: 800px;
+    min-height: 400px;
+    background-color: white;
+    text-align: center;
+    font: 25px helvetica;
+}
+h3 .section {
+    line-height: 1.5em;
+}
+
+aside#droite{
+    float: right;
+    width: 200px;
+    min-height: 400px;
+    background-color: red;
+    text-align: center;
+    font: 25px helvetica;
+}
+.aside #droite {
+    line-height: 1.5em;
+} */
+
+/* .clear {
+    clear: both;
+} */

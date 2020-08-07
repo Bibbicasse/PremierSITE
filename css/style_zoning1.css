@@ -1,0 +1,48 @@
+body {
+    background-color: pink;
+}
+
+main {
+	width: 1200px;
+	margin: auto;
+}
+header {
+    float: left;
+    width: 1200px;
+    background: palegoldenrod;
+    height: 150px;
+    text-align: center;
+    font-size: 25px;
+}
+
+h1 {
+    line-height: 0.5em;
+}
+
+aside {
+    float: left;
+    width: 200px;
+    min-height: 400px;
+    background-color: orange;
+    text-align: center;
+    font-size: 25px;
+}
+.aside {
+    line-height: 1.5em;
+}
+
+section {
+    float: right;
+    width: 1000px;
+    min-height: 400px;
+    background-color: lightblue;
+    text-align: center;
+    font-size: 25px;
+}
+h3 .section {
+    line-height: 1.5em;
+}
+
+/* .clear {
+    clear: both;
+} */
