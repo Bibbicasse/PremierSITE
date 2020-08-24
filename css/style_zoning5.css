@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(255, 239, 147);
+}
+
+#zoning5 {  
+    width: 1000px;
+    background-color: lightyellow;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+
+#zoning5 header {
+    background-color: green;
+    height: 80px;
+}
+
+#zoning5 nav {
+    background-color: purple;
+    height: 30px;
+   
+}
+
+#zoning5 section {
+    background-color: red;
+    padding: 20px;
+    height: 500px;
+}
+
+#zoning5 .a {
+    height: 250px;
+    width: 50%;
+    background-color: green;
+    float: left;
+}
+
+#zoning5 .b {
+    height: 250px;
+    width: 50%;
+    background-color: goldenrod;
+    float: left;
+}
+
+#zoning5 .c {
+    height: 250px;
+    width: 50%;
+    background-color: lightslategray;
+    float: left;
+}
+
+#zoning5 .d {
+    height: 250px;
+    width: 50%;
+    background-color: blue;
+    float: left;
+}
+
+#zoning5 footer {
+    background-color: green;
+    height: 50px;
+}

@@ -1,0 +1,52 @@
+body {
+    width: 800px;
+    background-color: grey;
+    margin: auto;
+	text-align: center;
+}
+
+div#zoning4 {
+    background-color: white;
+    width: 800px;
+    text-align: center;
+}
+
+#zoning4 header{
+    background-color: green;
+    width: 800px;
+    height:100px;
+    margin: auto;
+    text-align: center;
+    /* float: left; */
+}
+
+/* #zoning4 header p {
+    background: white;
+} */
+
+#zoning4 nav {
+    background-color: blue;
+    width: 800px;
+    height: 75px;
+    margin: auto;
+    text-align: center;
+    /* float: left; */
+}
+
+#zoning4 section {
+    background-color: purple;
+    width: 750px;
+    height: 500px;
+    margin: auto;
+    padding: 0;
+    text-align: center;
+    /* float: left; */
+}
+
+#zoning4 footer {
+    background-color: goldenrod;
+    width: 800px;
+    height: 50px;
+    margin: auto;
+    text-align: center;
+}

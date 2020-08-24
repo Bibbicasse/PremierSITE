@@ -322,9 +322,7 @@ border: 15px solid gold;
 
 
 		/* La page des Zonings  */
-#H_titre {
-	text-align: center;
-}		
+	
 			/* Zoning 1  */
 
 
@@ -360,96 +358,106 @@ border: 15px solid gold;
 }
 
 			/* zoning 2  */
-div#zoning2 {
-	width: 1200px;
-}
 
-header#zoning2header{
-	float: left;
-	width: 1200px;
-	background: gold;
-	min-height: 150px;
-	text-align: center;
-	font: 25px helvetica;
-	padding: 20px;
-}
 
-aside#gauche {
-	float: left;
-	width: 200px;
-	min-height: 400px;
-	background-color: greenyellow;
-	text-align: center;
-	font: 25px helvetica;
-	padding: 20px;
-}
-.aside #gauche {
-	line-height: 1.5em;
-}
-
-section#zoning2section {
-	float:left;
+#zoning2 {
+	/* background-color: blue ; */
 	width: 800px;
-	min-height: 400px;
-	background-color: white;
-	text-align: center;
-	font: 25px helvetica;
-}
-h3 .section {
-	line-height: 1.5em;
-}
-
-aside#droite{
-	float: right;
-	width: 200px;
-	min-height: 400px;
-	background-color: red;
-	text-align: center;
-	font: 25px helvetica;
-	padding: 20px;
-}
-.aside #droite {
-	line-height: 1.5em;
-}
-
-					/* Zoning 3  */
-
-#zoning3header {
-	background-color: yellow;
-	width: 1200px;
-	text-align: center;
 	margin: auto;
-}
-
-#zoning3footer {
-	background: greenyellow;
-	width: 1200px;
 	text-align: center;
-	margin: auto;
-	/* box-shadow: 1px 1px 2px white; */
+	color: #fff;
 }
 
-#zoning3gauche {
+#zoning2 header {
+	background-color: purple;
+	height: 70px;
+}
+
+#zoning2 aside {
+	width: 25%;
+	height: 500px;
 	float: left;
+	color: red;
+}
+
+#zoning2 .milieu {
+	background-color: green;
 	width: 50%;
-	min-height: 400px;
+	height: 500px;
+	float: left;
+	margin: 0;
+
+}
+
+				/* zoning 3  */
+
+#zoning3 {
 	background-color: blue;
+	width: 800px;
+	margin: auto;
 	text-align: center;
-	font: 25px helvetica;
-	padding: 20px;
 }
-#zoning3droite {
-	float: left;
+
+#zoning3 section {
 	width: 50%;
-	min-height: 400px;
-	background-color: red;
-	text-align: center;
-	font: 25px helvetica;
-	padding: 20px;
+	height: 500px;
+	background-color: orchid;
+	float: left;
+	color: #fff;
+	margin: 0;
+	padding: 0;
 }
 
-/* a terminer  */
+#zoning3 section.red {
+background-color: red;
+}
 
+#zoning3 footer p {
+	width: 100%;
+	
+	background-color: green;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+				/* zoning 4 */
+
+#zoning4 {
+	width: 800px;
+	background-color: lightgreen;
+	margin: auto;
+	text-align: center;
+	color: white;
+}
+
+#zoning4 header {	
+	min-height: 100px;
+	background-color: red;
+}
+
+#zoning4 nav {
+	background-color: blue;
+	min-height: 50px;
+	border: none;
+}
+
+#zoning4 nav p {
+	margin: 0;
+}
+
+#zoning4 section {
+	background-color: purple;
+	height: 500px;
+	margin: 10px;
+}
+
+#zoning4 footer {
+	background-color: black;
+	height: 50px;
+}
+
+					/* fin de zoning4 */
 
 				/* Page Position  */
 

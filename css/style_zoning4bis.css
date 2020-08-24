@@ -1,0 +1,37 @@
+/* body {
+    background-color: green;
+} */
+
+#zoning4 {
+    width: 1200px;
+    background-color: lightgreen;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+
+#zoning4 header {
+    /* width: 1200px; */
+    min-height: 100px;
+    background-color: red;
+}
+
+#zoning4 nav {
+    background-color: blue;
+    min-height: 50px;
+}
+
+#zoning4 nav p {
+    margin: 0;
+}
+
+#zoning4 section {
+    background-color: purple;
+    height: 500px;
+    margin: 20px;
+}
+
+#zoning4 footer {
+    background-color: black;
+    height: 50px;
+}
