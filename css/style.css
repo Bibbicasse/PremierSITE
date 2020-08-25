@@ -64,7 +64,8 @@ h2 {
 h3 {
 	font-size: 22px;
     color: #2c3e50;
-    padding: 15px;
+	padding: 15px;
+	margin: 0 auto;
     text-shadow: 1px 1px 2px #aaa;
 }
 h4 {
@@ -413,8 +414,7 @@ background-color: red;
 }
 
 #zoning3 footer p {
-	width: 100%;
-	
+	width: 800px;
 	background-color: green;
 	text-align: center;
 	margin: 0;
@@ -458,6 +458,56 @@ background-color: red;
 }
 
 					/* fin de zoning4 */
+					/* début zoning 5 */
+#zoning5 {
+	background-color: yellowgreen;
+	margin: 0 auto;
+	text-align: center;
+	width: 1000px;
+}
+
+#zoning5 header {
+	height: 100px;
+	background: #be32ff;
+}
+
+#zoning5 nav {
+	height: 50px;
+	background: rgb(124,107,187);
+	border:none;
+}
+
+#zoning5 section {
+	background-color: #176d81;
+	margin: 20px;
+	padding: 0;
+}
+
+#zoning5 .section .z1, .z2, .z3, .z4 {
+	height: 250px;
+	width: 50%;
+	float: left;
+}
+
+#zoning5 .section .z1, .z2, .z3, .z4 p {
+	/* line-height = à la ahteur de l'élément s'il y a un paragraphe court, qui tient sur une seule ligne  */
+	line-height: 250px;
+}
+
+#zoning5  .z1, .z4 {
+	background: green;
+}
+
+#zoning5  .z2, .z3 {
+	background: blue;
+}
+
+#zoning5 footer {
+	height: 100px;
+	background: gold;
+}
+
+				/* fin de zoning5 */
 
 				/* Page Position  */
 

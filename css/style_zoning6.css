@@ -1,0 +1,118 @@
+body {
+    background-color: lightgrey;
+    width: 1000px;
+    margin: auto;
+}
+
+header {
+    background-color: none;
+    width: 1000px;
+	margin: 0 auto;
+	text-align: center;
+    
+}
+.haut1 {
+    background: red;
+    /* border:1px solid black; */
+    height: 150px;
+    width: 25%;
+    float: left;
+}
+
+.haut2 {
+    background-color: steelblue;
+    /* border:1px solid black; */
+    height: 150px;
+    width: 50%;
+    float: left;
+}
+
+.haut3 {
+    background: cyan;
+    /* border:1px solid black; */
+    height: 150px;
+    width: 25%;
+    float: left;
+}
+
+nav {
+    background: lightcyan;
+    /* border:1px solid black; */
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    float: left;
+}
+
+aside {
+    background: maroon;
+    /* border:1px solid black; */
+    height: 600px;
+    width: 25%;
+    text-align: center;
+    float: left;
+}
+
+.zoneA {
+    background: lightgoldenrodyellow;
+    /* border:1px solid black; */
+    height: 200px;
+    width: 37.5%;
+    text-align: center;
+    float: left;
+}
+.zoneB {
+    background: lightgray;
+    /* border:1px solid black; */
+    height: 200px;
+    width: 37.5%;
+    text-align: center;
+    float: left;
+}
+
+.diaporama {
+    background: lightgreen;
+    /* border:1px solid black; */
+    height: 200px;
+    width: 75%;
+    text-align: center;
+    float: left;
+}
+
+.zoneC, .zoneD, .zoneE, .zoneF {
+    background: lightgray;
+    height: 200px;
+    width: 18.75%;
+    text-align: center;
+    float: left;
+}
+
+.zoneC {
+    background-color: lime;
+}
+
+.zoneD {
+    background-color: magenta;
+}
+
+.zoneE {
+    background-color: orange;
+}
+
+.zoneF {
+    background-color: orangered;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    height: 50px;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+.clear  {
+    clear: both;
+}
+
