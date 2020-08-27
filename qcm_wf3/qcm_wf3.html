@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../PremierSITE/test.css">
+    <title>QCM - Web Force 3</title>
+    <style>
+        body {
+            background-color: pink;
+        }
+        main {
+            height: 900;
+            min-height: 500px;
+            margin: auto;
+            background-color: #fff;
+        }
+        #en-tete {
+            height: 100px;
+            min-height: 100px;
+            background-color: ghostwhite;
+            text-align: center;
+        }
+
+        .bg-orange {
+            /* bgc:orange */
+            background-color: orange;
+            /* color:white */
+            color: white;
+        }
+
+        .cercle {
+            width:500px;
+            height:500px;
+            border-radius:50%;
+            background-color: red;
+        }
+
+        q::before {
+            content:"toto";
+            color: orange;
+        }
+
+        q::after {
+            content:"»";
+            color: red;
+        }
+
+    </style>
+</head>
+    <body>
+        <main>
+            <div id="en-tete">
+                <h1>QCM - WF3</h1>
+            </div>
+
+            <h2>
+                Ceci est un titre 2 avec un mot en blanc et un fond <span class="bg-orange">orange</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem sint eaque, voluptatibus aspernatur exercitationem totam optio asperiores harum, soluta iusto inventore cupiditate eius magnam deleniti quam praesentium nulla itaque. Qui.</p>
+            </h2>
+
+            <div class="cercle"></div>
+
+
+            <hr>
+            <q>Quelques guillemets</q>, dit-il, <q>sont mieux que pas du tout</q>
+            <hr>
+
+            <ul>
+                <li>Top des gateaux
+                  <ol>
+                    <li>fondant choco</li>
+                    <li>tarte au citron</li>
+                    <li>flan breton</li>
+                  </ol>
+                </li>
+                <li>Ingrédient nécéssaires
+                  <ul>
+                    <li>chocolat</li>
+                    <li>citrons</li>
+                    <li>prunes</li>
+                  </ul>
+                </li>
+            </ul>
+
+
+        </main>
+        
+    </body>
+</html>
