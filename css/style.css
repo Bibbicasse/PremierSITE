@@ -135,12 +135,16 @@ header {
 }
 
 .instagram:hover {
-	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	box-shadow:0px 0px 10px 3px gold;
+	
 }
 
 .facebook {
 	width: 35px;
 	margin-top: 20px;
+}
+.facebook:hover {
+	box-shadow:0px 0px 10px 3px gold;
 }
 
 .twitter {
@@ -148,15 +152,28 @@ header {
 	margin-top: 20px;
 }
 
+.twitter:hover {
+	box-shadow:0px 0px 10px 3px gold;
+}
+
 .youtube {
 	width: 35px;
 	margin-top: 20px;
+}
+
+.youtube:hover {
+	box-shadow:0px 0px 10px 3px gold;
 }
 
 .Linkedin {
 	width: 35px;
 	margin-top: 20px;
 }
+
+.Linkedin:hover {
+	box-shadow:0px 0px 10px 3px gold;
+}
+
 /* fin des styles réseaux sociaux  */
 
 header a {
@@ -172,6 +189,7 @@ nav {
 	border-bottom: 8px solid gold;
 	text-align: center;
 	padding: 15px;
+	
 }
 
 nav a {
@@ -185,13 +203,16 @@ nav a {
 	font-size: 20px;
 	font-family: 'oswald' serif;
 	/* controle la durée en secondes ou en mili-seconde de la transition avec la pseudo class .hover  */
-	transition: 0.25s; /* transition sur le "a" marche avec le hover  */
+	/* transition: 0.25s; transition sur le "a" marche avec le hover  */
 }
 
 /* hover controle le survole de la souris du clic */
 nav a:hover {
 	color: black;
 	background: gold;
+	box-shadow:0px 0px 10px 3px gold;
+	
+	
 }
 
 .active {
@@ -251,6 +272,11 @@ button {
 	position: fixed;
 	bottom: 40px;
 	right: 20px;
+}
+
+button:hover {
+	box-shadow:0 0 0 3px goldenrod;
+	border-radius: 50%;
 }
 
 /* fin des zone principales  */
@@ -547,3 +573,178 @@ background-color: red;
 	right: 0;
 	top: 0;
 }
+
+.trent {
+	width: 30%;
+	padding: 20px;
+	font-size: 22px;
+	background-color: red;
+	color:powderblue
+}
+
+.cinquante{
+	width: 50%;
+	padding: 20px;
+	font-size: 22px;
+	background-color: orangered;
+	color:#fff
+}
+
+.cent {
+	width: 100%;
+	padding: 20px;
+	font-size: 22px;
+	background-color: pink;
+	color:green
+}
+
+			/* float position*/
+
+
+/* .float{h170+w170+bgc:yellow+border:2px;solid;darkred+m10+float:left}*/
+
+.float {
+	height: 170px;
+	width: 170px;
+	background-color: yellow;
+	border: 2px solid darkred ;
+	margin: 10px;
+	float: left;
+	text-align: center;
+	font-size: 22px;
+}
+
+/* .dernier{h170+w170+m10+pt2+bgc:yellow+border2;solid;darkered+tac+fz22} */
+
+.dernier{
+	height: 170px;
+	width: 170px;
+	margin: 10px;
+	padding-top: 2px;
+	background-color: yellow;
+	border: 2px solid darkred;
+	text-align: center;
+	font-size: 22px;
+}
+.zone {
+	height: 70px;
+	background-color: #333;
+}
+
+.zone1, .zone2, .zone3, .zone4 {
+	height: 250px;
+	width: 25%;
+	float: left;
+}
+
+.zone1{
+	background:blue
+}
+
+.zone2{
+	background:yellow
+}
+.zone3{
+	background:orange
+}
+.zone4{
+	background:red
+}
+
+
+			/* La page des liens  */
+
+.ancre {
+	text-align: center;
+	padding: 100px;
+}
+
+.ancre a {
+	margin: 8px;
+	padding: 5px 10px;
+	background: gold;
+	color: goldenrod;
+	
+
+	text-decoration: none;
+	border-radius: 15px;
+}
+
+.ancre a:hover {
+	/* box-shadow: none; */
+	text-shadow: 1px 5px 10px gold;
+	box-shadow:0px 0px 10px 3px goldenrod;
+	color: black;
+}
+
+#menu nav {
+	background: transparent;
+	border: none;
+}
+
+#menu ul {
+	list-style:none;
+	text-align: center;
+}
+
+#menu ul li {
+	display: inline-block;
+}
+
+#menu nav a {
+	padding: 10px;
+	color:goldenrod;
+	text-decoration:none;
+	background: gold;
+	/* transition: 0.5s ease-in; */
+}
+
+#menu nav a:hover {
+	/* box-shadow: none; */
+	text-shadow: 1px 5px 10px gold;
+	box-shadow:0px 0px 10px 3px goldenrod;
+	color: black;
+}
+
+		/* le menu avec les menu déroulant  */
+
+	
+#menuDeroulant {
+	height: 650px;
+	margin: 0 auto;
+}
+
+#menuDeroulant nav {
+	width: 90%;
+	margin: 0 auto;
+	background: transparent;
+	border: none;
+}
+
+ #menuDeroulant nav ul li {
+	 list-style:none;
+	 width: 20%;
+	 float: left;
+ }
+#menuDeroulant ul ul {
+	display: none;
+}
+
+#menuDeroulant nav ul li ul li {
+	border-top:1px solid #464646;
+	width: 100%;
+}
+
+#menuDeroulant nav li {
+	background-color: #ccc;
+}
+
+#menuDeroulant nav li a {
+	display: block;
+	padding: 4px 0 4px ;
+}
+
+#menuDeroulant nav ul.niveau1 li.sousMenu:hover ul.niveau2 {
+	display: block;
+}
+
