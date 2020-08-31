@@ -602,8 +602,7 @@ q:before, q:after {
 	background:none;
 	color:black;
 	border: none;
-	box-shadow: none;
-	
+	box-shadow: none;	
 }
 
 /* #zoning6 nav p {
@@ -622,6 +621,7 @@ q:before, q:after {
 	width: 75%;
 	float: left;
 	background-color: lightgreen;
+	padding: 0;
 }
 
 #zoning6 .a {
