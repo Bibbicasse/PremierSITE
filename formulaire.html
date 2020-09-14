@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- les mots clefs utiles pour les moteurs de recherche moins utilisées de nos jours -->
+        <meta name="description" content="Site Suresnes 2020 - Colombbus">
+            <!-- la description indispensable pour les moteurs de recherche et qui s'affiche dans les résultats  -->
+        <meta name="keywords" content="HTML, CSS, Salvatore Giovinetti, colombbus, suresnes, PremierSITE"> 
+        <meta name="autor" content="Salvatore Giovinetti">
+        <title>PremierSITE - Image</title>
+        <link href="https://fonts.googleapis.com/css2?family=Anton&family=Lemonada&family=Oswald&display=swap" rel="stylesheet"> 
+
+                        <!-- LES TYPOS  -->
+        <script src="https://kit.fontawesome.com/b241a30995.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/style.css">
+       
+    </head>
+    <body>
+        <header>
+            <div id="logo">
+                <a href="#logo"><button type="button"><i class="fas fa-arrow-circle-up"></i></button></a>
+                <img src="img/logo.png" alt="logo premier site">
+            </div>
+                            <!-- fin ID logo  -->
+
+            <div id="slogan">
+                <a href="index.html" title="Mon Premier Site HTML/CSS">
+                    <h1>Mon Premier site HTML5/CSS3</h1></a>
+            </div>
+                            <!-- fin ID slogan  -->
+
+            <div id="social">
+                <!-- <a href="https://www.instagram.com/" target="_blank" class="instagram"><i class="fab fa-instagram"></i></a> -->
+                
+               <div id="suivezmoi">
+                   <a href="https://www.instagram.com/" target="_blank"><img class="instagram" src="icons/sociaux/instagram.ico" alt="Suivez-moi"></a>
+                    
+                    <a href="https://fr-fr.facebook.com/" target="_blank"><img class="facebook" src="icons/sociaux/facebook.ico" alt="Suivez-moi"></a>
+                   
+                    <a href="https://twitter.com/" target="_blank"><img class="twitter" src="icons/sociaux/twitter.ico" alt="Suivez-moi"></a>
+                    
+                    <a href="https://www.youtube.com/" target="_blank"><img class="youtube" src="icons/sociaux/youtube.ico" alt="Suivez-moi"></a>
+                   
+                    <a href="https://fr.linkedin.com/" target="_blank"><img class="Linkedin" src="icons/sociaux/linkedin.ico" alt="Suivez-moi"></a>
+                   
+                    <p class="suivezmoi">Suivez-moi !</p>
+               </div>
+
+                <!--  -->
+                
+            </div>
+                            <!-- fin ID social  -->
+                            
+            <div class="clear"></div>
+                            <!-- fin class clear  -->
+                            <!-- Fin de header  -->
+        </header>
+        <nav>
+            <!-- zone du menu des liens pour passer d'une à l'autre -->
+            <div class="ancreNav">
+                <a href="index.html" title="Accueil">Accueil</a>
+                <a href="texte.html" title="Texte" >Texte</a>
+                <a href="selecteur.html" title="Sélecteur">Sélecteur</a>
+                <a href="image.html" title="Image" >Image</a>
+                <a href="position.html" title="Position">Position</a>
+                <a href="zoning.html" title="Zoning">Zoning</a>
+                <a href="tableau.html" title="Tableau">Tableau</a>
+                <a href="liste.html" title="Liste">Liste</a>
+                <a href="liens_menu.html" title="Liens">Lien</a>
+                <a href="formulaire.html" title="Formulaire" class="active">Formulaire</a>
+                <a href="multimedia.html" title="Multimédia">Multimédia</a>
+                <a href="animation.html" title="Animation">Animation</a>
+                <a href="recap.html" title="Récapitulatif">Récapitulatif</a>
+            </div>
+        </nav>
+        <main>  <!-- Contenu Pricipal -->
+            <h2>Formulaire - <i class="fab fa-wpforms"></i></h2>
+
+            <section>
+                <form action="Formulaire.php" method="POST">
+                    <fieldset class="fomulaire">
+                        <!-- <legend></legend> -->
+                        <label for="pseudo">Votre Pseudo *</label>
+                        <input type="text" name="nom" id="nom" placeholder="Votre Pseudo" required>
+                        <br>
+
+                        <label for="prenom">Votre Prénom :</label>
+                        <input type="text" name="prenom" id="prenom" placeholder="Votre Prénom">
+                        <br>
+
+                        <label for="mdp">Mot de passe:</label>
+                        <input type="password" name="mdp" id="mdp" placeholder="Votre mot de passe">
+                        <br>
+
+                        <label for="email">Couriel: </label>
+                        <input type="email" name="email" id="email" placeholder="Votre E-mail">
+                        <br>
+
+                        <label for="fichier">Votre CV en PDF:</label>
+                        <input type="file"
+                        id="cvpdf" name="fichier"
+                        accept="file/PDF">
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Quels sont les fruits préférés</legend>
+
+                        <input type="checkbox" name="fruit_orange" id="fruit_orange">Orange
+                        <input type="checkbox" name="fruit_fraise" id="fruit_fraise">Fraise
+                        <input type="checkbox" name="fruit_kiwi" id="fruit_kiwi">kiwi
+                        <input type="checkbox" name="fruit_cerise" id="fruit_cerise">Cerise
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Si vous devez sauver un légume de la destruction : lequel ?</legend>
+                        <SELECT NAME= "fruits">
+                            <OPTION VALUE="poireaux" selected >Le Poireau
+                            <OPTION VALUE="bananes" selected>La banane
+                            <OPTION VALUE="pommes" selected>La pomme
+                            <OPTION VALUE="peche" selected>La pêche
+                        </SELECT> 
+                    </fieldset>
+
+                    <fieldset>
+                        <TEXTAREA NAME="Zone" COLS="20" ROWS="5"></TEXTAREA>
+                    <legend>Message</legend>
+                    </fieldset>
+
+                    <fieldset>
+                        <input type="submit" name="connexion" value="Envoyé">
+                        <input type="reset" name="annuler" value="Annuler" required >
+                    </fieldset>
+                </form>
+            </section>
+
+            <hr>
+
+            <!-- formualire correction  -->
+
+            <section class="formulaire">
+
+                <!-- action = url de destination (une adresse url ou un fichier) parfois cela peut être vide  -->
+                <!-- Method matière de faire cirucler les données (post ou get) (envoyer ou récupérer) -->
+                <!-- entype = pour envoyer le fichier correctement si nous envoyons un fichier pour cela il faut un input de type file-->
+                <form action="incription.php" method="POST" enctype="multipart/form-data">
+                    <label for="pseudo">Pseudo *</label>
+                    <input type="text" name="pseudo" id="pseudo" placeholder="Votre pseudo" required>
+                    <br>
+                    <label for="prenom">Prénom</label>
+                    <input type="text" name="prenom" id="prenom" placeholder="Votre Prénom">
+                    <br>
+                    <label for="password">Mot de passe *</label>
+                    <input type="password" name="password" id="password" placeholder="Votre mot de passe" required>
+                    <br>
+                    <label for="email">Couriel</label>
+                    <input type="email" name="email" id="email" placeholder="Votre Email" required>
+
+                    <p>Quels sont vos fruits préférés</p>
+                    <!-- les checkbox ont le même nom  et on passera les infos, en php, dans un tableau ex. fruit[]  -->
+                    <label for="orange">Orange</label>
+                    <input type="checkbox" name="fruits[]" id="fruit_orange" value="orange">
+
+                    <label for="fraise">Fraise</label>
+                    <input type="checkbox" name="fruits[]" id="fruit_fraise" value="fraise">
+
+                    <label for="kiwi">Kiwi</label>
+                    <input type="checkbox" name="fruits[]" id="fruit_kiwi" value="kiwi">
+                    
+                    <label for="cerise">Cerise</label>
+                    <input type="checkbox" name="fruits[]" id="fruit_cerise" value="cerise">
+
+                    <p>Si vous devez sauver un légume de la destruction ; lequel ?</p>
+
+                    <select name="légume" id="légume">
+                        <option value="poireau">Poireaux</option>
+                        <option value="choux de bruxelle">Choux de bruxelle</option>
+                        <option value="céleri">Céleri</option>
+                        <option value="épinard" selected>Épinards</option>
+                    </select>
+                </form>
+            </section>
+
+
+
+        </main><!-- fin de MAIN  -->
+        <footer> <!--Pieds de page-->
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga quo iusto, tempora non necessitatibus officia asperiores expedita! Unde perspiciatis necessitatibus dolor labore cum officia obcaecati illo sunt eveniet. Harum, dolorem.</p>
+        </footer>
+    </body>
+</html> 

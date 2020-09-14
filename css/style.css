@@ -682,6 +682,21 @@ q:before, q:after {
 }
 				
 
+				/* Page Tableau  */
+
+
+/* thead {
+	background-color: red;
+}
+
+tbody {
+	background-color: lightgreen;
+}
+
+tfoot {
+	background-color: blue;
+} */
+
 				/* Page Position  */
 
 .centre {
@@ -797,7 +812,32 @@ q:before, q:after {
 .zone4{
 	background:red
 }
+					/* flexbox  */
+.flex {
+	display: flex;
+/* les div également réparties horizontalement */
+/* justify-content : space-between  */
 
+/* les div avec un espace égal autour de chaque div  */
+/* justify-content: space-around; */
+
+/* de haut en bas en mode colonne  */
+/* flex-direction: column-reverse; */
+
+flex-direction: row-reverse;
+}
+
+
+.flex div {
+	width: 150px;
+	height: 150px;
+	background-color: brown;
+	text-align: center;
+	font-size: 50px;
+	line-height: 150px;
+	color: #fff;
+	margin: 10px;
+}
 
 			/* La page des liens  */
 
