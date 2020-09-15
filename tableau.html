@@ -121,28 +121,48 @@
             <section class="tableau">
                 <h2>Tableau - <i class="fas fa-table"></i></h2>
                 <table>
-                    <caption><i class="fas fa-fighter-jet"></i>Vols /// Paris -> Rome</caption>
+                    <!-- tr*5>td*4{$} -->
+                    <caption><i class="fas fa-plane"></i> /// Paris -> Rome</caption>
                     <thead>
                         <tr>
-                            <td>Date</td>
-                            <td>01/01/2020</td>
-                            <td>02/01/2020</td>
-                            <td>03/01/2020</td>
+                            <td>Dates</td>
+                            <td>01/09/28</td>
+                            <td>03/09/28</td>
+                            <td>05/09/28</td>
                         </tr>
                     </thead>
+                    <tfoot>
+                        <tr>
+                            <td>Dates</td>
+                            <td>01/09/28</td>
+                            <td>03/09/28</td>
+                            <td>05/09/28</td>
+                        </tr>
+                    </tfoot>
                     <tbody>
                         <tr>
-                            <!-- rowspan permet de fusionné plusieurs céllule entre elle -->
                             <td rowspan="2">Air France</td>
-                            <td>Départ 00h - arrivé 02h</td>
-                            <td>Départ 04h - arrivé 06h</td>
-                            <td>Départ 08h - arrivé 10h</td>
+                            <td>Départ 15 h 00 - Arrivée 17 h 00</td>
+                            <td>Départ 12 h 00 - Arrivée 15 h 00</td>
+                            <td>Départ 18 h 00 - Arrivée 21 h 00</td>
                         </tr>
                         <tr>
-                            <!-- <td></td> cette cellule est fusionnée avec la céllule du dessus, donc je ne met pas le code correspondant à cette td -->
-                            <td>200 €</td>
+                            <!-- <td>200£</td> -->
                             <td>180 €</td>
-                            <td>170 €</td>
+                            <td>150 €</td>
+                            <td>220 €</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2">Alitalia</td>
+                            <td>Départ 15 h 00 - Arrivée 17 h 00</td>
+                            <td>Départ 12 h 00 - Arrivée 15 h 00</td>
+                            <td>Départ 18 h 00 - Arrivée 21 h 00</td>
+                        </tr>
+                        <tr>
+                            <!-- <td>200£</td> -->
+                            <td>180 €</td>
+                            <td>150£ €/td>
+                            <td>220 €</td>
                         </tr>
                     </tbody>
                 </table>
