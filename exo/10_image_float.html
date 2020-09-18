@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float image 10</title>
+
+    <style>
+        body {
+            background-color: #fff;
+        }
+
+        #conteneur {
+            background-color: pink;
+            margin: auto;
+            width: 900px;
+        }
+
+                        /* salvatore  */
+        .conteneur {
+            background-color: lightblue;
+            width: 800px;
+            margin: 0 auto;
+            height: 500px;
+           
+        }
+
+        .star_droite {
+            float: right;
+            width: 60px;
+	        height: 60px;
+        }
+
+        .star_gauche {
+            float: left;
+            width: 60px;
+	        height: 60px;
+        }
+
+                        /* .correction_audrey */
+        div#audrey {
+            background-color: rgb(109, 208, 221);
+            min-height: 600px;
+            width: 600px;
+            margin: 0 auto;
+        }
+        #audrey img {
+            width: 50px;
+            height: 50px;
+            float: left;
+        }
+        #audrey p {
+            float: left;
+            width: 400px;
+        }
+        #audrey h1,  #audrey section,  #audrey p {
+            padding: 5px;
+        }
+
+                        /* correction patrick */
+        div#correction2 {
+            background-color: #5698;
+            margin: 0 auto;
+            width: 600px;
+            min-height: fit-content;
+        }
+        .a-droite {
+            float: right;
+            width: 50px;
+            height: 50px;
+        }
+        .a-gauche {
+            float: left;
+            width: 50px;
+            height: 50px;
+        }
+        .clear {
+            clear: both;
+        }
+        @media (max-width: 600px) {
+            #conteneur {
+                width: 100%;
+                background: red;
+            }
+        }
+        }
+
+    </style>
+</head>
+    <body>
+        <div id="conteneur">
+            <div class="conteneur">
+                <h2>Image en float</h2>
+                <div class="float_droite">
+                    <h2>Faire flotter l'image à droite:</h2>
+                    <img class="star_droite" src="../img/star.png" alt="star">
+                    <p>Un paragraphe avec une image qui flotte à droite. Un paragraphe avec une image qui flotte à droite. Un paragraphe avec une image qui flotte à droite. Un paragraphe avec une image qui flotte à droite.
+                    </p>
+                    
+                </div>
+                <div class="float_gauche">
+                    <h2>Faire flotter l'image à gauche :</h2>
+                    <img class="star_gauche" src="../img/star.png" alt="star" >
+                    <p>Un paragraphe avec une image qui flotte à gauche. Un paragraphe avec une image qui flotte à gauche. Un paragraphe avec une image qui flotte à gauche. Un paragraphe avec une image qui flotte à gauche.</p>
+                    
+                </div>
+            </div>
+
+
+                    <!-- correction  -->
+
+
+            <div id="audrey">
+                <h1>Image en float</h1>
+                <section>
+                    <h2>Faire flotter l'image à droite</h2>
+                
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum temporibus sunt natus et perspiciatis aspernatur a necessitatibus animi possimus doloribus repellat minima, recusandae unde tempore debitis dignissimos. Architecto, sed autem!</p>
+                    <img src="../img/star.png" alt="etoile">
+                </section>
+                <div class="clear"></div>
+                <section>
+                    <h2>Faire flotter l'image à gauche</h2>
+                    <img src="../img/star.png" alt="etoile">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum temporibus sunt natus et perspiciatis aspernatur a necessitatibus animi possimus doloribus repellat minima, recusandae unde tempore debitis dignissimos. Architecto, sed autem!</p>
+                </section>
+            </div>
+
+
+                        <!-- correction patrick  -->
+
+       
+                <div id="correction2">
+                    <h2>Image en float</h2>
+                    <p>Faire flotter l'image à droite</p>
+                
+                    <p>
+                        <img src="../img/star.png" alt="une étoile" class="a-droite"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores obcaecati modi beatae tempora maxime laudantium error! Nesciunt obcaecati iste temporibus ab ad molestias a quaerat nemo beatae! Reprehenderit, in aliquid.
+                    </p>
+                    
+                
+                    <p>Faire flotter l'image à gauche</p>
+                
+                    <p>
+                        <img src="../img/star.png" alt="une étoile" class="a-gauche"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium numquam, accusamus ex cumque labore possimus esse praesentium excepturi iste, atque ab corporis quia vel, delectus eveniet. Dicta quos dolor provident.
+                    </p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe reiciendis quo dignissimos quae repellendus quis, quasi ad odit animi laborum, deserunt libero placeat velit ipsam error nisi similique praesentium itaque?</p>
+                </div>
+                <div class="clear"></div>
+        </div>
+    </body>
+</html>
