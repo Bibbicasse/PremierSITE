@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Galeries</title>
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+
+            /* référence couleur  */
+            /* header : #98bdee
+            nav : #bfbfdb
+            section : #ebcdd2
+            footer : #98bdee */
+
+
+                                /* Contenu principal  */
+        body {
+            width: 100%;
+            font-family: Arial, Helvetica, sans-serif ;
+            font-weight: bold;
+        }
+
+        p {
+            margin: 0 auto;
+        }
+
+        main {
+            width: 1239px;
+            height: 596px;
+            margin: 0 auto;
+        }
+
+        header {
+            background-color: #98bdee;
+            height: 135px;
+
+        }
+
+        nav {
+            background-color: #bfbfdb;
+            height: 100px;
+        }
+
+        section {
+            background-color: #ebcdd2;
+            width: 100%;
+            height: 245px;
+        }
+
+        figure {
+            margin: auto;
+            float: left;
+            padding: 10px;
+        }
+
+        figcaption {
+            background-color: rgba(134, 134, 134, 0.521);
+            color: rgb(194, 194, 194);
+            text-align: center;
+            position: relative;
+            top: -20px;
+            height: 16px;
+            width: 150px;
+        }
+
+        footer {
+            height: 80px;
+            background-color: #98bdee;
+        }
+
+        .clear{
+            clear: both;
+        }
+
+                            /* Effets float  */
+
+        div img {
+            float: left;
+            margin: 0 auto;
+            display: -webkit-inline-box;
+            padding: 10px;
+        }
+        </style>
+    </head>
+    <body>
+        <main>
+            <header>
+                <p>HEADER</p>
+            </header> <!-- fin de heauder -->
+            <nav>
+                <p>NAV</p>
+            </nav> <!-- fin de nav -->
+            <section>
+                <h2>De bien beaux voiliers</h2>
+
+                <figure>
+                    <img src="../img/voiliergonet.jpg" alt="voiliergonet">
+                    <figcaption>Légende</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="../img/voilierimage.jpg" alt="voilierimage">
+                    <figcaption>Légende</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="../img/voilierplaque.jpg" alt="voilierplaque">
+                    <figcaption>Légende</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="../img/voiliertrinite.jpg" alt="voiliertrinite">
+                    <figcaption>Légende</figcaption>
+                </figure>
+                
+            </section>
+
+            <div class="clear"></div>
+
+            <footer>
+                <p>FOOTER</p>
+            </footer><!-- fin de footer -->
+        </main>
+    </body>
+</html>
