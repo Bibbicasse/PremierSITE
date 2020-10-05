@@ -89,12 +89,74 @@
             background-color: pink;
         }
 
-        /*12. la valeur quii suit l'étoile doit apparaitre quelque part dans la valeur de l'attribut*/
+        /*12. la valeur quii suit l'étoile doit apparaitre quelque part dans la valeur de l'attribut, on recherche une chaine de caractère*/
 
-        a[href*="mac"] {
+        /* a[href*="mac"] ,a[href="mon"] si je veux chercher 2 chaînes de caractères  */
+        a[href*="mac"] /* ,a[href="mon"] */ {
             background-color: black;
             color: white;
             text-transform: uppercase;
+        }
+
+        /* 13. */
+
+        /* 14. */
+
+        /* 15. */
+
+        /* 16. */
+
+        /* 17. une pseudo-classe pour cibler un élement d'interface utilisateur*/
+
+        input[type=radio]:checked + label {
+            background-color: lightgreen;
+        }
+
+        /*18.*/
+
+        /*19. pseudo-classe d'action utilisateur: :hover */
+
+        a:hover {
+            border-bottom: 2px solid red;
+            /* text-decoration: underline  */
+        }
+
+        /*20. pseudo-classe de négation: toute les div sauf container*/
+
+        div:not(#container) {
+            color: #fff;
+        }
+
+        /*21. pseudo-éléments identifiés par "::" ; */
+        p::first-line {
+            font-weight: bold;
+        }
+
+        p#lettrine::first-letter {
+            font-size: 2em;
+            float: left;
+            padding-right: 5px;
+        }
+
+        /*22. la pseudo-classe ELEMENT:nth-chid(n)*/
+
+        #courses li:nth-child(2) {
+            background-color: #333;
+            color: #fff;
+        }
+
+        /*23*/
+
+        /*24.*/
+
+        /*25*/
+
+        /*26.*/
+
+        /*27. ELEMENT last-child*/
+
+        ul#courses li:last-child {
+            font-family: cursive;
         }
 
     </style>
@@ -115,10 +177,11 @@
             <p>Un lien vers le site de mon choix <a href="https://www.google.com/">ici</a></p>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea veniam nostrum, reprehenderit autem numquam, unde obcaecati architecto nulla aut sed consectetur vitae harum rerum, amet rem aliquam deserunt ipsum? Temporibus.</p>
 
-            <ul>
+            <ul id="courses">
                 <li>pain</li>
                 <li>vin</li>
                 <li>Bousin</li>
+                <li>raisin</li>
             </ul>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium hic, veritatis culpa ex minima dolore pariatur, tempora aut est veniam laboriosam rem accusamus voluptatum quidem, harum consequatur nam? Ut, harum.</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur nesciunt architecto, illo numquam, at voluptate natus nobis perferendis beatae ipsam iure earum rem voluptas ullam aliquid, commodi ad facere accusamus. trouvez tout ici vers <a href="https://macbidouille.com/">Mac Bidouille</a></p>
@@ -138,6 +201,18 @@
                     <li>Océanie</li>
                 </ul>
             </div>
+            <p id="lettrine">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium hic, veritatis culpa ex minima dolore pariatur, tempora aut est veniam laboriosam rem accusamus voluptatum quidem, harum consequatur nam? Ut, harum.</p>
+            <hr>
+            <form action="#" method="POST">
+                <input type="radio" name="rad" value="bouton radio">
+                <label for="rad">Bouton Radio</label>
+            </form>
+
+            <hr>
+
+
+
+            <!-- fin de container -->
         </div>
     </body>
 </html>
