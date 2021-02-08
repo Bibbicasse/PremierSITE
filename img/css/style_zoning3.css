@@ -1,0 +1,36 @@
+body {
+    /* background-color: lightgray; */
+    width: 1200px;
+    margin: auto;
+}
+
+.claar {
+    clear: both;
+}
+
+section {
+    width: 600px;
+    float: left;
+    background-color: paleturquoise;
+    text-align: center;
+    min-height: 500px;
+}
+
+div {
+    padding: 0;
+    margin: 0;
+    height:251px;
+    width: 1200px;
+    background-color: red;
+}
+
+footer {
+    background-color: lightgreen;
+    text-align: center;
+    min-height: 30px;
+}
+
+footer p {
+    margin: 0;
+}
+

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Galeries</title>       
+        <link rel="stylesheet" href="../css/reset_ecric_mayer.css"> <!-- Reset -->
+        <style>
+
+            /* REFERENCE COULEURS
+            
+            header : #98bdee
+            nav : #bfbfdb
+            section : #ebcdd2
+            footer : #98bdee 
+            */
+
+                            /* Style balise principal  */
+            body {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 0.9em;  
+            }
+
+            header {
+                height: 150px;
+            }
+
+            nav {
+                height: 100px;
+                background-color: rgb(152, 218, 0);
+            }
+
+            section {
+                height: auto;
+                background-color: gold;
+            }
+
+            footer {
+                height: 80px;
+            }
+                            /* Style des ID  */
+            #container {
+                background-color: goldenrod;
+                width: 1200px;
+                margin: 10px auto;
+            }
+
+                            /* Style des classes  */
+            .image {
+                float: left;
+                padding: 30px 10px;
+            }
+
+            .bloc {
+                margin-left: 20%;
+            }
+
+           
+                        /* Style des légendes des images  */
+
+        figure {
+            display: flex;
+            /* flex-flow propriété raccourcie pour flex-direction et flex-wrap  */
+            flex-flow: column;
+        }
+
+        figcaption {
+            background-color: #222;
+            color: #fff;
+            font: italic smaller sans-serif;
+            padding: 3px;
+            text-align: center;
+            position: relative;
+            bottom: 20px;
+        }
+
+
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <!--HEADER-->
+            <header>HEADER</header>
+            <!--NAV-->
+            <nav>NAV</nav>
+            <!--SECTION-->
+            <section class="section">
+                <h2 class="titreSection">De bien beaux voiliers</h2>
+                <!-- Bloc d'image-->
+                <div class="bloc">
+                    <div class="image">
+                        <figure>
+                            <img src="../img/voiliergonet.jpg" alt="Image voilier">
+                            <figcaption>Légende</figcaption>
+                        </figure>
+                    </div>
+                    <div class="image">
+                        <figure>
+                            <img src="../img/voilierimage.jpg" alt="Image voilier">
+                            <figcaption>Légende</figcaption>
+                        </figure>
+                    </div>
+                    <div class="image">
+                        <figure>
+                            <img src="../img/voilierplaque.jpg" alt="Image voilier">
+                            <figcaption>Légende</figcaption>
+                        </figure>
+                    </div>
+                    <div class="image">
+                        <figure>
+                            <img src="../img/voiliertrinite.jpg" alt="Image voilier">
+                            <figcaption>Légende</figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <!--Retour dans le flux -->
+                <div class="clear"></div>
+            </section>
+            <!--FOOTER-->
+            <footer>FOOTER</footer>
+        </div>
+    </body>
+</html>

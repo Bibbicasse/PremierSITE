@@ -1,0 +1,1139 @@
+@charset "UTF-8";
+/* reset simple  */
+/* l'étoile signifie tout all */
+/* Tout les éléments sont "taillés" de facon plus intuitive. Ils concerveront la taille que nous leur donnons*/
+*{
+    box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* Mes styles pour mon premierSITE : Salvatore Giovinetti - Colombbus  */
+
+/* font-family: 'Anton', sans-serif;
+
+font-family: 'Lemonada', cursive;
+
+font-family: 'Oswald', sans-serif; */
+
+body {
+	background-image: url('../img/concrete-texture.png');
+	font-family: 'Oswald', sans-serif;
+}
+				/* style des titre du site */
+.clear {
+	clear: both;
+}
+
+h1 {
+	font-size: 45px;
+	color: goldenrod;
+	text-align: center;
+	letter-spacing: 1px;
+	font-family: 'Anton', sans-serif;
+}
+
+h2 {
+	font-size: 35px;
+	color: goldenrod;
+	padding: 20px;
+	font-weight: bold;
+	text-shadow: 1px 1px 2px #aaa;	
+
+}
+
+h3 {
+	font-size: 22px;
+    color: #2c3e50;
+	padding: 15px;
+	margin: 0 auto;
+    text-shadow: 1px 1px 2px #aaa;
+}
+h4 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+strong {
+	font-weight: bold;
+}
+
+/* à complété  */
+
+
+/* Style pour header  */
+
+header {
+	height: 175px;
+	background: lightgray;
+}
+
+#logo {
+	float: left;
+	width: 25%;
+	background: lightgrey;
+	padding: 15px;
+	text-align: center;
+}
+#slogan {
+	float: left;
+	width: 50%;
+	background: lightgrey;
+	padding-top: 50px;
+}
+/* style pour  header : les styles pour icône d'instagram et de facebook */
+#social {
+	float: left;
+	width: 25%;
+	
+}
+#social i {
+	/* background-color: #2c3e50; */
+	/* background: red; */
+	font-size: 30px;
+	text-align: right;
+	width: 190px;
+	padding: 15px 10px 0 0;
+	
+}
+
+ /* ici les styles des réseau sociaux  */
+ #suivezmoi {
+	width:200px;
+	text-align: center;
+	color: goldenrod;
+	font-size: 25px;
+}
+
+.suivezmoi {
+	border: 6px solid goldenrod;
+	
+}
+ .instagram {
+	width: 35px;
+	margin-top: 20px;	
+}
+
+.instagram:hover {
+	box-shadow:0px 0px 10px 3px gold;
+	
+}
+
+.facebook {
+	width: 35px;
+	margin-top: 20px;
+}
+.facebook:hover {
+	box-shadow:0px 0px 10px 3px gold;
+}
+
+.twitter {
+	width: 35px;
+	margin-top: 20px;
+}
+
+.twitter:hover {
+	box-shadow:0px 0px 10px 3px gold;
+}
+
+.youtube {
+	width: 35px;
+	margin-top: 20px;
+}
+
+.youtube:hover {
+	box-shadow:0px 0px 10px 3px gold;
+}
+
+.Linkedin {
+	width: 35px;
+	margin-top: 20px;
+}
+
+.Linkedin:hover {
+	box-shadow:0px 0px 10px 3px gold;
+}
+
+/* fin des styles réseaux sociaux  */
+
+header a {
+	text-decoration: none;
+	color: gold;
+}
+
+				/* fin style header  */
+
+nav {
+	background: goldenrod;
+	height: 70px;
+	border-bottom: 8px solid gold;
+	text-align: center;
+	padding: 15px;
+	
+}
+
+nav a {
+	background: gold;
+	margin: 10px;
+	padding: 2px 10px;
+	border-radius: 10px 0;
+	border: 2px solid black;
+	color : goldenrod ;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: 'oswald' serif;
+	/* controle la durée en secondes ou en mili-seconde de la transition avec la pseudo class .hover  */
+	/* transition: 0.25s; transition sur le "a" marche avec le hover  */
+}
+
+/* hover controle le survole de la souris du clic */
+nav a:hover {
+	color: black;
+	background: gold;
+	box-shadow:0px 0px 10px 3px gold;
+	
+	
+}
+
+.active {
+	color: black;
+	background: goldenrod;
+}
+
+/* les zone principales de la page et du site  */
+
+main {
+	background: rgba(178, 178, 178, 0.178);
+	width: 1200px;
+	margin: auto;
+}
+
+
+aside {
+	height: 250px;
+	background: goldenrod;
+	width: 30%;
+	float: left;
+}
+
+#accueil {
+	float: right;
+	width: 70%;
+	/* padding:10px; */
+}
+
+section {
+	/* margin-top: 10px; */
+	width: 100%;
+	padding: 20px;
+}
+
+footer {
+	/* min-height: 100px; */
+	/* float: left; */
+	width: 100%;
+	height: 30px;
+	background: goldenrod;
+	margin-top: 10px;
+	
+}
+
+footer p {
+	text-align: center;
+}
+
+button {
+	font-size: 350%;
+	background: transparent;
+	border: none ;
+	color: gold;
+	
+	/* la position du bouton  */
+	position: fixed;
+	bottom: 40px;
+	right: 20px;
+}
+
+button:hover {
+	box-shadow:0 0 0 3px goldenrod;
+	border-radius: 50%;
+}
+
+/* fin des zone principales  */
+
+/* le bouton pour aller en haut de la page  */
+
+/* style de la page texte  */
+.citation{
+	font: 20px 'Lemonada', cursive;
+}
+h2 i {
+	color: gold ;
+	font-size: 200%;
+}
+blockquote i {
+	color: goldenrod;
+	font-size: 200%;
+	vertical-align: middle;
+}
+
+/* début page image  */
+
+.imageFond {
+background: url(../img/fond.jpg) no-repeat ;
+background-size: cover;
+}
+
+h3 i {
+	color: gold;
+}
+
+.imageFond p {
+width: 75%;
+margin: 200px auto 250px auto;
+padding: 20px;
+background: rgba(255, 255, 255, 0.6);
+border-radius: 10px;
+font-size: 120%;
+}
+
+/* on cible uniquement l'image avec son chemin relatif depuis la page HTML  */
+
+img[src="img/toureiffel.jpg"] {
+	margin: auto;
+	display: block;
+	padding: 15px;
+	background: goldenrod ;
+}
+
+.auCentre {
+	text-align: center;
+}
+.imageGolden {
+	margin: 20px;
+	border: 5px solid goldenrod;
+	box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+	/* tranition durée qui fonctionne avec le :hover et transform  */
+	transition: 1s;
+}
+			/* effets d'animations */
+.imageGolden:hover {
+transform: rotate(7deg);
+border: 15px solid gold;
+}
+
+.rotation360:hover {
+	transform: rotate(360deg);
+}
+
+
+
+		/* La page des Zonings  */
+	
+			/* Zoning 1  */
+
+
+#zoning1 {
+	background: goldenrod;
+	width: 800px;
+	text-align: center;
+	margin: auto;
+	box-shadow: 1px 1px 2px white;
+}
+
+#zoning1 header {
+	height: 70px;
+	background: gold;
+}
+
+#zoning1 aside {
+	background: goldenrod ;
+	height: 525px;
+	width: 20%;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+#zoning1 section {
+	background: lightgrey;
+	height: 525px;
+	width: 80%;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+			/* zoning 2  */
+
+
+#zoning2 {
+	/* background-color: blue ; */
+	width: 800px;
+	margin: auto;
+	text-align: center;
+	color: #fff;
+}
+
+#zoning2 header {
+	background-color: purple;
+	height: 70px;
+}
+
+#zoning2 aside {
+	width: 25%;
+	height: 500px;
+	float: left;
+	color: red;
+}
+
+#zoning2 .milieu {
+	background-color: green;
+	width: 50%;
+	height: 500px;
+	float: left;
+	margin: 0;
+
+}
+
+				/* zoning 3  */
+
+#zoning3 {
+	background-color: blue;
+	width: 800px;
+	margin: auto;
+	text-align: center;
+}
+
+#zoning3 section {
+	width: 50%;
+	height: 500px;
+	background-color: orchid;
+	float: left;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+#zoning3 section.red {
+background-color: red;
+}
+
+#zoning3 footer p {
+	width: 800px;
+	background-color: green;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+				/* zoning 4 */
+
+#zoning4 {
+	width: 800px;
+	background-color: lightgreen;
+	margin: auto;
+	text-align: center;
+	color: white;
+}
+
+#zoning4 header {	
+	min-height: 100px;
+	background-color: red;
+}
+
+#zoning4 nav {
+	background-color: blue;
+	min-height: 50px;
+	border: none;
+}
+
+#zoning4 nav p {
+	margin: 0;
+}
+
+#zoning4 section {
+	background-color: purple;
+	height: 500px;
+	margin: 10px;
+}
+
+#zoning4 footer {
+	background-color: black;
+	height: 50px;
+}
+
+					/* fin de zoning4 */
+					/* début zoning 5 */
+#zoning5 {
+	background-color: yellowgreen;
+	margin: 0 auto;
+	text-align: center;
+	width: 1000px;
+}
+
+#zoning5 header {
+	height: 100px;
+	background: #be32ff;
+}
+
+#zoning5 nav {
+	height: 50px;
+	background: rgb(124,107,187);
+	border:none;
+}
+
+#zoning5 section {
+	background-color: #176d81;
+	margin: 20px;
+	padding: 0;
+}
+
+#zoning5 .section .z1, .z2, .z3, .z4 {
+	height: 250px;
+	width: 50%;
+	float: left;
+}
+
+#zoning5 .section .z1, .z2, .z3, .z4 p {
+	/* line-height = à la ahteur de l'élément s'il y a un paragraphe court, qui tient sur une seule ligne  */
+	line-height: 250px;
+}
+
+#zoning5  .z1, .z4 {
+	background: green;
+}
+
+#zoning5  .z2, .z3 {
+	background: blue;
+}
+
+#zoning5 footer {
+	height: 100px;
+	background: gold;
+}
+
+				/* fin de zoning5 */
+				/* début de zoning6 */
+
+#zoning6 ol, ul {
+	list-style: none;
+}
+
+#zoning6 blockquote, q {
+	quotes: none;
+}
+#zoning6 blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+#zoning6 table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+#zoning6 {
+	width: 1000px;
+	margin: 0 auto;
+	text-align: center;
+	color: #fff;
+	background-color: pink;
+}
+
+#zoning6 header {
+	height: 200px;
+}
+
+#zoning6 .clear {
+	clear: both;
+}
+
+#zoning6 .haut1, .haut3 {
+	width: 25%;
+	height: 100%;
+	float: left;
+	background: teal;
+}
+
+#zoning6 .haut2 {
+	width: 50%;
+	height: 100%;
+	float: left;
+	background-color: turquoise;
+}
+
+.bg-tomato {
+	background-color: tomato;
+}
+
+#zoning6 nav {
+	height: 50px;
+	background-color: lightblue;
+	padding: 0;
+	border: none;
+}
+
+#zoning6 nav a {
+	text-decoration:none;
+	margin: 0;
+	padding: 0;
+	background:none;
+	color:black;
+	border: none;
+	box-shadow: none;	
+}
+
+/* #zoning6 nav p {
+	margin: 0;
+} */
+
+#zoning6 aside {
+	width: 25%;
+	background-color: purple;
+	min-height: 500px;
+	float: left;
+}
+
+
+#zoning6 section {
+	width: 75%;
+	float: left;
+	background-color: lightgreen;
+	padding: 0;
+}
+
+#zoning6 .a {
+	height: 200px;
+	width: 50%;
+	float: left;
+	background-color: wheat;
+}
+#zoning6 .b {
+	height: 200px;
+	width: 50%;
+	float: left;
+	background-color: black; 
+}
+
+#zoning6 .diaporama {
+	height: 200px;
+	background-color: khaki;
+}
+
+#zoning6 .c {
+	width: 25%;
+	height: 100px;
+	float: left;
+
+	background-color: blue;
+}
+
+#zoning6 .d {
+	width: 25%;
+	height: 100px;
+	float: left;
+
+	background-color: goldenrod;
+}
+
+#zoning6 .e {
+	width: 25%;
+	height: 100px;
+	float: left;
+
+	background-color: red;
+}
+
+#zoning6 .f {
+	width: 25%;
+	height: 100px;
+	float: left;
+
+	background-color: greenyellow;
+}
+
+
+#zoning6 footer {
+	min-height: 100px;
+	background-color: gold;
+	margin: 0;
+}
+				
+
+				
+
+				/* Page Position  */
+
+.centre {
+	height: 200px;
+	width: 200px;
+	background-color: gold;
+	margin: 0 auto;
+}
+
+.absolute {
+	height: 100px;
+	width: 100px;
+	background-color: gold;
+	position: absolute;
+	top: 24%;
+	left: 10%;
+}
+
+/* Quand c'est relatif c'est par rapport au parent, quand c'est absolute c'est par rapport au docuemnt SAUF si l'élément est dans un parent relatif.  */
+.relative {
+	background-color: goldenrod;
+	width: 400px;
+	height: 400px;
+	/* Position relative  a la section dans laquelle se trouve cette div, relative par rapport a son parent  */
+	position: relative;
+	left: 100px;
+	bottom: 10px;
+}
+
+.relative div {
+	/* Contrairement à la div.absolute plus haut, cette élément à la position absolute étant placé dans une div à position relative, elle est absolute par rapport à son parent et non par rapport au document.*/
+	background: gold;
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.trent {
+	width: 30%;
+	padding: 20px;
+	font-size: 22px;
+	background-color: red;
+	color:powderblue
+}
+
+.cinquante{
+	width: 50%;
+	padding: 20px;
+	font-size: 22px;
+	background-color: orangered;
+	color:#fff
+}
+
+.cent {
+	width: 100%;
+	padding: 20px;
+	font-size: 22px;
+	background-color: pink;
+	color:green
+}
+
+			/* float position*/
+
+
+/* .float{h170+w170+bgc:yellow+border:2px;solid;darkred+m10+float:left}*/
+
+.float {
+	height: 170px;
+	width: 170px;
+	background-color: yellow;
+	border: 2px solid darkred ;
+	margin: 10px;
+	float: left;
+	text-align: center;
+	font-size: 22px;
+}
+
+/* .dernier{h170+w170+m10+pt2+bgc:yellow+border2;solid;darkered+tac+fz22} */
+
+.dernier{
+	height: 170px;
+	width: 170px;
+	margin: 10px;
+	padding-top: 2px;
+	background-color: yellow;
+	border: 2px solid darkred;
+	text-align: center;
+	font-size: 22px;
+}
+.zone {
+	height: 70px;
+	background-color: #333;
+}
+
+.zone1, .zone2, .zone3, .zone4 {
+	height: 250px;
+	width: 25%;
+	float: left;
+}
+
+.zone1{
+	background:blue
+}
+
+.zone2{
+	background:yellow
+}
+.zone3{
+	background:orange
+}
+.zone4{
+	background:red
+}
+					/* flexbox  */
+.flex {
+	display: flex;
+/* les div également réparties horizontalement */
+/* justify-content : space-between  */
+
+/* les div avec un espace égal autour de chaque div  */
+/* justify-content: space-around; */
+
+/* de haut en bas en mode colonne  */
+/* flex-direction: column-reverse; */
+
+flex-direction: row-reverse;
+}
+
+
+.flex div {
+	width: 150px;
+	height: 150px;
+	background-color: brown;
+	text-align: center;
+	font-size: 50px;
+	line-height: 150px;
+	color: #fff;
+	margin: 10px;
+}
+
+			/* La page des liens  */
+
+.ancre {
+	text-align: center;
+	padding: 100px;
+}
+
+.ancre a {
+	margin: 8px;
+	padding: 5px 10px;
+	background: gold;
+	color: goldenrod;
+	
+
+	text-decoration: none;
+	border-radius: 15px;
+}
+
+.ancre a:hover {
+	/* box-shadow: none; */
+	text-shadow: 1px 5px 10px gold;
+	box-shadow:0px 0px 10px 3px goldenrod;
+	color: black;
+}
+
+#menu nav {
+	background: transparent;
+	border: none;
+}
+
+#menu ul {
+	list-style:none;
+	text-align: center;
+}
+
+#menu ul li {
+	display: inline-block;
+}
+
+#menu nav a {
+	padding: 10px;
+	color:goldenrod;
+	text-decoration:none;
+	background: gold;
+	/* transition: 0.5s ease-in; */
+}
+
+#menu nav a:hover {
+	/* box-shadow: none; */
+	text-shadow: 1px 5px 10px gold;
+	box-shadow:0px 0px 10px 3px goldenrod;
+	color: black;
+}
+
+		/* le menu avec les menu déroulant  */
+
+	
+#menuDeroulant {
+	height: 650px;
+	margin: 0 auto;
+}
+
+#menuDeroulant nav {
+	width: 90%;
+	margin: 0 auto;
+	background: transparent;
+	border: none;
+}
+
+ #menuDeroulant nav ul li {
+	 list-style:none;
+	 width: 20%;
+	 float: left;
+ }
+#menuDeroulant ul ul {
+	display: none;
+}
+
+#menuDeroulant nav ul li ul li {
+	border-top:1px solid #464646;
+	width: 100%;
+}
+
+#menuDeroulant nav li {
+	background-color: #ccc;
+}
+
+#menuDeroulant nav li a {
+	display: block;
+	padding: 4px 0 4px ;
+}
+
+#menuDeroulant nav ul.niveau1 li.sousMenu:hover ul.niveau2 {
+	display: block;
+}
+
+				/* Fin des style des liens */
+
+
+				/* Début des pages animation */
+/* Camel case: casse différenciée  */
+.infoBulle {
+	height: 250px;
+	width: 500px;
+	margin: auto;
+	padding: 15px;
+	background: gold;
+	box-shadow: 0 0 50px goldenrod inset;
+}
+.infoBulle p{
+	text-align: center;
+	padding-top: 30px;
+}
+.infoBulle a {
+	color: black;
+	text-decoration: none;
+	border: 3px;
+	padding: 15px;
+	background: goldenrod;
+	box-shadow: 0 -2px 0 gold;
+}
+.infoBulle a:hover {
+	color: white;
+	background: rgba(0, 0, 0, 0.4);
+	text-shadow: 0 1px 2px gold;
+	padding: 15px;
+	box-shadow: 0 1px 0 rgba(255,255,255,0.4)
+}
+.infoBulle a span {
+	position: absolute;
+	padding: 15px;
+	margin-top: 23px;
+	margin-left: -35px;
+	background: rgba(0, 0, 0, 0.9);
+	border-radius: 13px ;
+	/* le contenu de span disparaît grâce à cette ligne */
+	opacity: 0;
+	color: gold;
+	transition: .25s;
+	/* la mise à l'echelle transform:scale(0) fait aussi disparaître le contenu de span */
+	transform: scale(0) rotateZ(-12deg);
+}
+.infoBulle a:hover span {
+	opacity: 1;
+	transform: scale(1) rotate(0);
+}
+.infoBulle a span ::before {
+	content: "";
+	position: absolute;
+	top: -6px;
+	left: 6px;
+	border-bottom: 6px solid rgba(0, 0, 0, 0.9);
+	border-left: 7px solid transparent;
+	border-right: 6px solid transparent;
+}
+
+/* effets survol avec transition et filtre  */
+
+.imgEffets {
+	width: 302px;
+	height: 320px;
+	margin: 0 auto;
+}
+
+.imgEffets li {
+	width: 141px;
+	/* On fabrique le carré qui contient une image (suite pour ce carré plus bas */
+	height: 150px;
+	margin: 5px;
+	float: left;
+	list-style: none;
+}
+
+/* le 3e li est clear:both */
+.imgEffets li:nth-child(3) {
+	clear: both;
+}
+
+.imgEffets img {
+	/* On controle la position des éléments car on va jouer sur leur empilement */
+	position: absolute;
+	/* toute les images sont empilées en bas  */
+	z-index: 1;
+	/* on cale l'image dans un bloc carré de 150px */
+	height: 150px;
+	box-shadow: 0, 0, 15, #000000;
+	/* cubic-bezier commance par 0,  se termine par 1 et entre ces 2 valeurs nous mettons nos propres valeurs  */
+	transition: .5s cubic-bezier(0, 3, .4, 1);
+	/* pour la transition il faut le :hover */
+}
+
+.imgEffets li:hover img {
+	/* l'image sur le hover sur la li passe au premier plan  */
+	z-index: 2;
+	transform: scale(1.5);
+	box-shadow: 0 0 10px black;
+}
+
+.imgEffets:hover li:not(:hover) img {
+	/* On passe les li qui ne sont pas survolées en niveaux de gris et avec un flou */
+	filter: grayscale(1) blur(1px);
+}
+
+
+					/* début des styles de la page multimédia */
+
+.videoFond {
+	padding-left: 0;
+	padding-right: 0;
+}				
+
+.videoFond video {
+	position: absolute;
+	z-index: 1;
+	width: 80%;
+}
+
+.videoTexte {
+	/* On le décale par rapport à sa position normale */
+	position: relative;
+	width: 100%;
+	height: 500px;
+}
+
+.videoFond p {
+	position: absolute;
+	z-index: 2;
+	width: 500px;
+	margin: auto;
+	background: rgba(255, 255, 255, 0.6);
+	left: 250px;
+	top: 150px;
+	padding: 20px;
+	font-size: 120%;
+	border-radius: 15px;
+	text-align: center;
+}
+
+/* pour la vidéo youtube embarquée  */
+
+iframe[src="https://www.youtube-nocookie.com/embed/Gcqu2V5lBZo"] {
+	width: 100%;
+	height: 800px;
+
+}
+
+iframe[allowfullscreen] {
+	width: 100%;
+}
+
+.audio {
+	text-align: center;
+}
+
+				/* page formulaire */
+
+form {
+	width: 80%;
+	margin: 0 auto;
+	padding: 15px;
+	background-color: goldenrod;
+	border-radius: 20px;
+}
+
+label {
+	margin: 20px 10px;
+}
+
+form p {
+	margin: 10px;
+}
+
+textarea  {
+	/* on interdit le redimensionnement du textarea  */
+	resize: none;
+}
+
+label[for="orange"], label[for="fraise"], label[for="kiwi"], label[for="cerise"] {
+	background-color:gold;
+	
+}
+
+							/* Page Tableau  */
+
+table {
+	border-collapse: collapse;
+}
+
+.tableau td {
+	border: 3px solid gold;
+	/* background-color: gold; */
+	padding: 10px;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.tableau thead, .tableau tfoot {
+	background-color: goldenrod;
+	border: 5px solid gold;
+	text-align: center;
+}
+
+.tableau caption {
+	background-color: gold;
+	border: 3px solid goldenrod;
+	height: 50px;
+	font-size: 25px;
+	text-align: left;
+	padding-left: 5px;
+	color: black;
+}
